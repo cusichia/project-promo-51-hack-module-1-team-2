@@ -1,1 +1,5 @@
 @use '../core/variables' as vars;
+
+.header__h2 {
+    font-family: vars.$font-main;
+}

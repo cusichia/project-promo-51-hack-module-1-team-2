@@ -1,7 +1,10 @@
 @use 'core/reset';
+@use 'core/variables';
 @use 'layout/main-section1';
 @use 'layout/main-section2';
 @use 'layout/main-section3';
 @use 'layout/header';
 @use 'layout/footer';
 @use 'pages/index';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
