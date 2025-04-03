@@ -1,2 +1,42 @@
 @use '../core/variables' as vars;
 
+.section2 {
+    background-color: vars.$color-quaternary;
+    font-family: vars.$font-secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 6vh;
+}
+
+.section2__h3 {
+    text-align: center;
+    padding-bottom: 3vh;
+    width: 20vw;
+    color: vars.$color-primary;
+    font-size: 1.6rem;
+}
+
+.section2__articles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 8vh;
+    width: 30vw;
+    font-size: 1.1rem;
+} 
+
+.section2__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+   }
+
+.section2__icon {
+    width: 8vw;
+    height: auto;
+  /*PARA QUE EL ICONO SE QUEDE CENTRADO SU CAJA MADRE DEBE SER FLEX Y PONERLE LA PROPIEDAD PARA CENTRAR A ELLA*/
+   }
