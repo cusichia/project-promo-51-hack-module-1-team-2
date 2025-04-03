@@ -83,6 +83,43 @@
 
     @media (min-width: 768px) {
         display: block;
-        width: 100%
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 70px;
     }
 }
+
+/* .button-google {
+display: flex;
+align-items: center;
+background-color: vars.$color-primary;
+color: white;
+width: 200px;
+height: 60px;
+border-radius: 8px;
+text-decoration: none;
+padding: 10px;
+font-family: vars.$font-main;
+
+
+.google-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.large {
+  font-size: 18px;
+  font-weight: bold;
+}
+} */
