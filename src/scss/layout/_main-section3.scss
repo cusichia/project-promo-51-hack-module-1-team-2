@@ -1,2 +1,55 @@
 @use '../core/variables' as vars;
 
+.section3{
+    background-color: vars.$color-quinary;
+    width: 400px;
+    height: 2258px;
+}
+.section3__box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80% 20%;
+   border-radius: 25px;
+   padding-left: 25px;
+    background-color: white;
+}
+.section3__h2{
+color: vars.$color-secondary;
+font-size: 23px;
+gap: 64px;
+
+}
+.section3__img-product1{
+   grid-column: span 2;
+   width: 80%;
+    height: 90%;
+   align-items: center;
+}
+.section3__box2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80% 20%;
+   border-radius: 25px;
+   padding-left: 25px;
+    background-color: white;
+}
+.section3__img-product2{
+    grid-column: span 2;
+    width: 80%;
+     height: 90%;
+    align-items: center;
+ }
+ .section3__box3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80% 20%;
+   border-radius: 25px;
+   padding-left: 25px;
+    background-color: white;
+}
+ .section3__img-product3{
+    grid-column: span 2;
+    width: 80%;
+     height: 90%;
+    align-items: center;
+ }
