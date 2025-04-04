@@ -1,9 +1,9 @@
 @use '../core/variables' as vars;
 
 .section3{
-    background-color: vars.$color-sixtary;
+    display: grid;
     width: 100%;
-    margin: 5%;
+    margin-left: 5%;
     height: 100%;
     font-family: vars.$font-main;
      
@@ -15,12 +15,14 @@
     height:500px;
     background-color: white;
     width: 95%;
+    border-radius: 25px;
 }
 .section3__h2{
-color: vars.$color-secondary;
-font-size: 1rem;
-margin-top: 50px;
-margin-bottom: 40px;
+    color: vars.$color-secondary;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
 
 }
 .section3__p{
@@ -34,15 +36,16 @@ margin-bottom: 40px;
     align-items: center;
 }
 .section3__h4{
-    margin-left: 32px; 
+    margin-left: 22px; 
 }
 .section3__box2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80% 20%;
     height:500px;
     background-color: white;
     width: 95%;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80% 20%;
 }
 .section3__img-product2{
     grid-column: span 2;
@@ -52,15 +55,36 @@ margin-bottom: 40px;
  }
  .section3__box3{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80% 20%;
     height:500px;
     background-color: white;
     width: 95%;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80% 20%;
  }
  .section3__img-product3{
     grid-column: span 2;
     width: 95%;
     height: 95%;
     align-items: center;
+ }
+ @media all and (min-width: 768px) {
+    
+    .section3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /*grid-template-rows: 20% 60% 20%;*/
+        width: auto;
+        height: 700px;
+       
+    }
+.section3__h2{
+    grid-column: span 3;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ 
+}
+.section3__p{
+  height: 20%;
+}
  }
