@@ -2,54 +2,65 @@
 
 .section3{
     background-color: vars.$color-sixtary;
-    width: 400px;
-    height: 2258px;
+    width: 100%;
+    margin: 5%;
+    height: 100%;
+    font-family: vars.$font-main;
+     
 }
 .section3__box1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 20%;
-   border-radius: 25px;
-   padding-left: 25px;
+    height:500px;
     background-color: white;
+    width: 95%;
 }
 .section3__h2{
 color: vars.$color-secondary;
-font-size: 23px;
-gap: 64px;
+font-size: 1rem;
+margin-top: 50px;
+margin-bottom: 40px;
 
 }
+.section3__p{
+    color: vars.$color-secondary;
+    margin-left: 52px;
+}
 .section3__img-product1{
-   grid-column: span 2;
-   width: 80%;
-    height: 90%;
-   align-items: center;
+    grid-column: span 2;
+    width: 95%;
+    height: 95%;
+    align-items: center;
+}
+.section3__h4{
+    margin-left: 32px; 
 }
 .section3__box2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 20%;
-   border-radius: 25px;
-   padding-left: 25px;
+    height:500px;
     background-color: white;
+    width: 95%;
 }
 .section3__img-product2{
     grid-column: span 2;
-    width: 80%;
-     height: 90%;
+    width: 95%;
+    height: 95%;
     align-items: center;
  }
  .section3__box3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 20%;
-   border-radius: 25px;
-   padding-left: 25px;
+    height:500px;
     background-color: white;
-}
+    width: 95%;
+ }
  .section3__img-product3{
     grid-column: span 2;
-    width: 80%;
-     height: 90%;
+    width: 95%;
+    height: 95%;
     align-items: center;
  }
