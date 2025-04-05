@@ -3,6 +3,7 @@
 .header {
     font-family: vars.$font-main;
     background: linear-gradient(to bottom, #83b9df56, white);
+    box-shadow: 0 4px 16px 0 #4b008119;
 }
 
 .header__h1 {
@@ -75,6 +76,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-bottom: 60px;
     }
 }
 
@@ -89,37 +91,75 @@
     }
 }
 
-/* .button-google {
+.button__google {
 display: flex;
 align-items: center;
 background-color: vars.$color-primary;
 color: white;
-width: 200px;
+width: 180px;
 height: 60px;
-border-radius: 8px;
+border-radius: 5px;
 text-decoration: none;
 padding: 10px;
-font-family: vars.$font-main;
 
+    &-logo {
+    width: 25%;
+    margin-right: 10px;
+    }
 
-.google-icon {
-  width: 40px;
-  margin-right: 10px;
+    &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    &-text-small {;
+    font-size: 10px;
+    }
+
+    &-text-large {
+    font-size: 18px;
+    font-weight: 600px;
+    }
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+.button__apple {
+    display: flex;
+    align-items: center;
+    background-color: vars.$color-primary;
+    color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    
+        &-logo {
+        width: 15%;
+        margin-right: 15px;
+        }
+    
+        &-text {
+        display: flex;
+        flex-direction: column;
+        }
+    
+        &-text-small {
+        font-size: 12px;
+        }
+    
+        &-text-large {
+        font-size: 20px;
+        font-weight: 600px;
+        }
+    }
 
-.small {
-  font-size: 12px;
-  font-weight: bold;
-}
+.header__buttons {
+    display: none;
 
-.large {
-  font-size: 18px;
-  font-weight: bold;
+    @media (min-width: 768px) {
+        display: flex;
+        gap: 30px;
+        padding-top: 20px;
+    }
 }
-} */
