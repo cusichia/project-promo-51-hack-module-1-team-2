@@ -1,1 +1,62 @@
 @use '../core/variables' as vars;
+
+.footer {
+    background-color: #4a99d3;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 20px 10px;
+    gap: 24px;
+    min-height: 250px;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__branding {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            width: auto;
+        }
+    }
+
+    &__h2 {
+        font-family: vars.$font-main;
+        color: white;
+        font-size: 2.1rem;
+        font-weight: bold;
+    }
+
+    &__social {
+        font-size: 1.8rem;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    &__nav {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-right: 30px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+    }
+}
