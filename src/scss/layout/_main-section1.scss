@@ -1,7 +1,7 @@
 @use '../core/variables' as vars;
 
 .section1 {
-    margin-top: 40%; 
+    margin-top: 150px; 
     margin-bottom: 14.21%;
 }
 
@@ -11,13 +11,56 @@
     letter-spacing: 1.8px;
     color: vars.$color-secondary;
     font-size: 2.23rem;
-    // width: 88.37%;
-    // height: 1.47%;
-    // margin-left: 8.84%;
-    // margin-right: 2.79%;
-    // // margin-bottom: 63.8px; respecto a la imagen de abajo, no la caja del articulo
-    // margin-bottom: 11.26%; //respecto a la caja 
+    padding-left: 55px;
+    padding-bottom: 80px;
 }
+
+.section1__articles {
+    display: flex;
+    flex-direction: column;
+    font-family: vars.$font-secondary;
+    background-color: white;
+    padding-inline: 57px;
+    gap: 140px;
+}
+
+.section1__article {
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
+    background-color: #fff;
+}
+
+.section1__article__image {
+    padding-inline: 40px;
+}
+
+.section1__article__h4 {
+    color: vars.$color-quinary;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-inline: 30px;
+    padding-top: 30px;
+    padding-bottom: 4px;
+}
+.section1__article__text {
+    color: vars.$color-quinary;
+    font-size: 1rem;
+    opacity: 60%;   
+    padding-inline: 30px;
+    padding-bottom: 30px;
+}
+
+.section1__article__button {
+    color: vars.$color-primary;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-inline: 30px;
+    padding-bottom: 55px;
+}
+
+
+
+
 
 
 
