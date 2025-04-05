@@ -1,98 +1,25 @@
 @use '../core/variables' as vars;
 
 .section1 {
-    margin-top: 23.2%; 
+    margin-top: 40%; 
     margin-bottom: 14.21%;
 }
 
 .section1__h2 {
     font-family: vars.$font-main;
+    font-weight: vars.$font-main-weight;
+    letter-spacing: 1.8px;
     color: vars.$color-secondary;
-    font-size: 2.25rem;
-    width: 88.37%;
-    height: 1.47%;
-    margin-left: 8.84%;
-    margin-right: 2.79%;
-    // margin-bottom: 63.8px; respecto a la imagen de abajo, no la caja del articulo
-    margin-bottom: 11.26%; //respecto a la caja 
+    font-size: 2.23rem;
+    // width: 88.37%;
+    // height: 1.47%;
+    // margin-left: 8.84%;
+    // margin-right: 2.79%;
+    // // margin-bottom: 63.8px; respecto a la imagen de abajo, no la caja del articulo
+    // margin-bottom: 11.26%; //respecto a la caja 
 }
 
-.section1__articulos {
-    display: flex;
-    flex-direction: column; 
-    font-family: vars.$font-secondary;
-}
 
-.section1__articulos_titulo {
-    color: vars.$color-quinary;
-    font-size: 1.25rem;;
-    
-}
-
-.section1__articulos_parrafo {
-    color: vars.$color-quinary;
-    font-size: 1rem;
-    opacity: 60%;
-    text-align: left;
-
-}
-
-.section1__articulos_boton {
-    color: vars.$color-primary;
-    font-size: 0.875rem;
-    font-weight: bold;
-
-}
-
-.section1__articulo1 {
-    width: 74.65%;
-    height: 59.31%;
-    margin-left: 11.86%;
-    margin-right: 13.6%;
-    margin-bottom: 15.59%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
-    background-color: #fff; 
-    //position: relative;
-}
-
-.section1__imagen1 {
-    width: 1.98%;
-    height: 21.77%;
-    // position: relative;
-    // top: -8.5px;
-    // z-index: 1;
-}
-
-.section1__articulo2 {
-    width: 74.65%;
-    height: 59.31%;
-    margin-left: 11.86%;
-    margin-right: 13.6%;
-    margin-bottom: 15.59%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
-    background-color: #fff; 
-    position: relative;
-}
-
-.section1__articulo3 {
-    width: 74.65%;
-    height: 59.31%;
-    margin-left: 11.86%;
-    margin-right: 13.6%;
-    margin-bottom: 15.59%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
-    background-color: #fff; 
-    position: relative;
-}
 
 
 
