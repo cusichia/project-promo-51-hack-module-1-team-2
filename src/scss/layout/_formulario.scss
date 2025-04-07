@@ -14,49 +14,48 @@
             color: #0f001a;
             font-size: 18px;
             padding-right: 50px;
-            :hover {
-                color: vars.$color-primary;
-            }
         }
     }
 
 }
 
-.formulario__caja {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-        width: 80vw;
-    }
-}
-
-.formulario__box {
+.form__main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.formulario__main {
+    
+    &-box {
     box-shadow: 10px 10px 28px 10px  #0000001b;
     border-radius: 10px;
     margin-bottom: 60px;
+    }
+
+    &-h2 {
+        font-family: vars.$font-secondary;
+        color: vars.$color-primary;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-decoration: underline;
+    }
+
+    &-caja {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+        @media (min-width: 768px) {
+            flex-direction: row;
+            width: 80vw;
+        }
+    }
 }
 
-.formulario__h2 {
-    font-family: vars.$font-secondary;
-    color: vars.$color-primary;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-decoration: underline;
-}
 
-.formulario__contact {
+
+.form__container {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -64,34 +63,51 @@
     padding-inline: 70px;
     padding-bottom: 50px;
 
+    @media (min-width: 768px) {
+        padding-inline: 0px;
+        padding-left: 40px;
+    }
+
     &-h3 {
         font-family: vars.$font-secondary;
         color: vars.$color-quinary;
         font-size: 20px;
         font-weight: 400;
     }
-    
-    &-form {
+
+    &-input {
         display: flex;
         flex-direction: column;
         align-items: left;
         gap: 10px;
     }
 
-    &-form-box {
+    &-name {
         border: 1.5px solid #b4bec8;
         border-radius: 5px;
         height: 40px;
         width: 350px;
+
+        &::placeholder {
+            font-family: vars.$font-secondary;
+            padding-left: 10px;
+        }
     }
-    &-form-message {
+
+    &-message{
         border: 1.5px solid #b4bec8;
         border-radius: 5px;
         height: 100px;
         width: 350px;
+
+        &::placeholder {
+            font-family: vars.$font-secondary;
+            padding-left: 10px;
+            padding-top: 20px;
+        }
     }
 
-    &-form-btn {
+    &-button {
         background-color: vars.$color-primary;
         color: white;
         border: none;
@@ -100,23 +116,32 @@
         border-radius: 5px;
         width: 350px;
         font-size: 20px;
-        :hover {
-            background-color: vars.$color-secondary;
-            font-size: 30px;
+
+        &:hover {
+            background-color: #2774ab;
+            font-size: 25px;
         }
     }
 }
 
-.formulario__contact-maps {
+
+
+.form__maps {
     display: flex;
     justify-content: center;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 
     @media (min-width: 768px) {
+        width: 70vw;
+        height: 50vh;
     }
     
     &-img {
-        width: 90%;
+        width: 85%;
         height: auto;
+        border-radius: 5px;
+
+        @media (min-width: 768px) {
+        }
     }
 }
