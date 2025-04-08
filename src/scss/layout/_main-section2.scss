@@ -9,6 +9,7 @@
     padding-top: 7vh;
     padding-bottom: 10vh;
 
+
     @media all and (min-width: 768px) {
         flex-direction: none;
         padding-top: 10vh;
@@ -21,9 +22,8 @@
         width: 30vw;
         color: vars.$color-primary;
         font-size: 1.6rem;
-        display: flex;
-        justify-content: center; 
-        border: 1px solid black;
+       display: flex;
+        justify-content: center;
     
         @media all and (min-width: 768px) {
             padding-bottom: 7vh;
@@ -38,11 +38,10 @@
         gap: 10vh;
         width: 50vw;
         font-size: 1.1rem;
-        border: 1px solid black; /*MIRAR ESTO*/
         
         @media all and (min-width: 768px) {
             flex-direction: row;
-            width: 80vw;
+            width: 80vw; /*PROBAR A QUITAR WIDTH Y A DAR GAP*/
             gap: 12vw;
         }
         } 
