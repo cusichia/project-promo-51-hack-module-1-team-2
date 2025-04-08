@@ -54,11 +54,13 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /*grid-template-rows: 20% 60% 20%;*/
-        width: 100vh;
+        width: 100%;
         height: 700px;
-        padding-left: 110px;
+      /*  padding-left: 10%;*/
+        justify-items: center;
        
     }
+
 .section3__h2{
     grid-column: span 3;
     margin-top: 50px;
