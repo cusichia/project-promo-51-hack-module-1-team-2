@@ -1,0 +1,45 @@
+<header class="header__formulario">
+    <nav class="header__nav">
+        <h1 class="header__h1">AdaShop</h1>
+        <ul class="header__list">
+            <li>Home</li>
+            <li>Nosotros</li>
+            <a href="./contact.html"><li>Contáctanos</li></a>
+        </ul>
+        <i class="fa-solid fa-bars" style="color: #4a99d3;"></i>
+    </nav>
+</header>
+
+
+
+<main class="form__main">
+
+    <section class="form__main-box">
+        <h2 class="form__main-h2">Contáctanos</h2>
+      
+        <section class="form__main-caja">
+            
+            <section class="form__container">
+                <h3 class="form__container-h3">Envianos un mensaje</h3>
+                <form class="form__container-input" action="https://formspree.io/f/xkgjqlgw" method="POST">
+                    <div>
+                        <input class="form__container-name" type="text" id="name" name="name" required placeholder="Name">
+                    </div>   
+                    <div>
+                        <label for="email"></label>
+                        <input class="form__container-name" type="email" id="email" name="email" required placeholder="Email Adress">
+                    </div>   
+                    <div>
+                        <label for="message"></label>
+                        <textarea class="form__container-message" id="message" name="message" rows="6" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="form__container-button" type="submit">Send</button>
+                </form>
+            </section>
+
+            <div class="form__maps">
+            <iframe class="form__maps-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388695.46415392595!2d-4.0084884906649165!3d40.43801080943452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e0!3m2!1sit!2ses!4v1743850630770!5m2!1sit!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section> 
+    </section>
+</main>

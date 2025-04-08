@@ -23,6 +23,7 @@
         font-size: 1.6rem;
         display: flex;
         justify-content: center; 
+        border: 1px solid black;
     
         @media all and (min-width: 768px) {
             padding-bottom: 7vh;
@@ -37,7 +38,8 @@
         gap: 10vh;
         width: 50vw;
         font-size: 1.1rem;
-    
+        border: 1px solid black; /*MIRAR ESTO*/
+        
         @media all and (min-width: 768px) {
             flex-direction: row;
             width: 80vw;
