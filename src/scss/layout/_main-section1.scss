@@ -124,17 +124,17 @@
     padding-inline: 50px;
     padding-bottom: 20px;
 
-    // .fa-arrow-right {
-    //    display: none;
-    // }
-
-    // @media (min-width: 768px) {
-    //     .fa-arrow-right {
-    //         display: inline;
-    //         vertical-align: middle;
-
-    //     }
-    // }
+    .fa-solid {
+        display: none;
+    }
+    
+    @media (min-width: 768px) {
+        .fa-solid {
+            display: inline !important;
+            vertical-align: middle;
+            padding-left: 10%;
+        }
+    }
 }
 
 
