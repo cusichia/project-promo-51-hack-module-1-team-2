@@ -3,7 +3,7 @@
 .section3{
     display: grid;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     font-family: vars.$font-main;
     padding-bottom: 70px;
 }
@@ -16,6 +16,7 @@
     width: 350px;
     border-radius: 25px;
     box-shadow: 0 4px 16px 0 #0000002f; 
+    margin-bottom: 50px;
 } 
 
 .section3__h2{
