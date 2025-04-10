@@ -3,10 +3,13 @@
 .section3{
     display: grid;
     justify-content: center;
-    gap: 10px;
+    gap: 5x;
     font-family: vars.$font-main;
     padding-bottom: 70px;
 }
+
+
+
 .section3__box{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,6 +20,12 @@
     border-radius: 25px;
     box-shadow: 0 4px 16px 0 #0000002f; 
     margin-bottom: 50px;
+
+    @media (min-width: 768px) {
+        width: 90%;
+        max-width: 350px;
+    }
+
 } 
 
 .section3__h2{
@@ -29,7 +38,7 @@
 }
 .section3__p{
     color: vars.$color-secondary;
-    padding-left: 52px;
+    padding-left: 40%;
     padding-top: 20px;
 }
 .section3__img-product{
@@ -43,7 +52,7 @@
     object-fit: cover;
 }
 .section3__h4{
-    padding-left: 52px;
+    padding-left: 20%;
     padding-top: 20px;
 }
 
@@ -58,8 +67,9 @@
         height: 700px;
       /*  padding-left: 10%;*/
         justify-items: center;
-       
     }
+
+    
 
 .section3__h2{
     grid-column: span 3;
